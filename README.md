@@ -1,7 +1,7 @@
 # python script to reverse the order of the PDF pages
 
 ## Script that can be used in Apple's Automator as an App(preferred)
-As long as Apple continues to provide a System Python that has Cocoa bridge support, the Python script [reverse_apple.py](reverse_apple.py) will rapidly reverse the pages in one or more PDF (without modifying the original) and write *file.pdf* out as *file_rev.pdf* in the original filesystem location. 
+As long as Apple continues to provide a System Python that has Cocoa bridge support, the Python script [reverse_apple.py](src/mac/reverse_apple.py) will rapidly reverse the pages in one or more PDF (without modifying the original) and write *file.pdf* out as *file_rev.pdf* in the original filesystem location. 
 * Note for this script to work it requires ```pyobjc```, if not already installed:
 ```
 pip3 install pyobjc
@@ -30,4 +30,4 @@ Make sure there's no bug left and save
 ### Automator (Application):
 
 ## Another script
-Note [reverse_pdf.py](reverse_pdf.py) script slightly reduces the size of the reversed pdf file compared to the original file size when tested.
+Note [src/reverse_pdf.py](reverse_pdf.py) script slightly reduces the size of the reversed pdf file compared to the original file size when tested.
