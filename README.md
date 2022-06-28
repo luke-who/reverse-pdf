@@ -9,9 +9,9 @@ pip3 install pyobjc
 It can be incorporated into a single Automator Run Shell Script action saved as either a drag/drop application on the Desktop, or as a Quick Action, so you can select one or more PDF in the Finder and with a right-click, choose Quick Actions -> Reverse PDF Pages.
 ### Automator (Quick Action):
 #### Set up
-
+![Automator Quick Action](img/Automator-Quick%20Action.png "Automator Quick Action")
 #### Note in macOS Monterey, you will encounter this error
-
+![Automator Quick Action Error](img/Shell%20error.png "Automator Quick Action Error")
 To fix this, create Symlink to python3(installed by homebrew):
 ```
 sudo ln -s /opt/homebrew/opt/python@3.10/bin/python3 /usr/local/bin/python3
@@ -24,6 +24,7 @@ sudo rm /usr/local/bin/python3
 ```
 
 #### Usage in Finder
+![Finder Quick Action](img/Finder-Quick%20Action.png "Finder Quick Action")
 
 ### Automator (Application):
 
