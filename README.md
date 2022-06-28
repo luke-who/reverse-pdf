@@ -30,4 +30,13 @@ Make sure there's no bug left and save
 ### Automator (Application):
 
 ## Another script
-Note [reverse_pdf.py](src/reverse_pdf.py) script slightly reduces the size of the reversed pdf file compared to the original file size when tested.
+* Note [reverse_pdf.py](src/reverse_pdf.py) script slightly reduces the size of the reversed pdf file compared to the original file size when tested.
+### Usage
+Package requirement:
+```
+pip install pdfrw
+```
+then run 
+```
+python3 reverse_pdf.py file.pdf
+```
