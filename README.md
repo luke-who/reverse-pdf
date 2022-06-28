@@ -1,2 +1,2 @@
-# reverse-pdf
-python script to reverse the order of the PDF pages
+# python script to reverse the order of the PDF pages
+
