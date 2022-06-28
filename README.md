@@ -27,6 +27,7 @@ Make sure there's no bug left and save
 #### Usage in Finder
 ![Finder Quick Action](img/finder_quick_action_usage.png "Finder Quick Action")
 
+Alternatively download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path is "/Users/luke/Library/Services/Reverse\ PDF\ Pages.workflow"
 ### Automator (Application):
 
 ## Another script
