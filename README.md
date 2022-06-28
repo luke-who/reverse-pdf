@@ -2,7 +2,7 @@
 
 ## Script that can be used in Apple's Automator as an App(preferred)
 As long as Apple continues to provide a System Python that has Cocoa bridge support, the Python script [reverse_apple.py](reverse_apple.py) will rapidly reverse the pages in one or more PDF (without modifying the original) and write *file.pdf* out as *file_rev.pdf* in the original filesystem location. 
-Note for this script to work it requires pyobjc, if not already installed:
+* Note for this script to work it requires ```pyobjc```, if not already installed:
 ```
 pip3 install pyobjc
 ```
