@@ -45,7 +45,7 @@ python3 reverse_pdf.py file.pdf
 ### Usage
 Package requirement:
 
-via homebrew[python-tk](https://formulae.brew.sh/formula/python-tk@3.10)(:
+via homebrew [python-tk](https://formulae.brew.sh/formula/python-tk@3.10):
 ```
 brew install python-tk@3.10
 ```
@@ -53,4 +53,4 @@ then run
 ```
 python3 reverse_pdf_PyPDF2.py
 ```
-to select file(s) in the GUI to proceed
+to select file in the GUI to proceed
