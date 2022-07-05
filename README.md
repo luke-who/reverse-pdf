@@ -44,7 +44,7 @@ It can be incorporated into a single Automator Run Shell Script action saved as 
 ### Automator (Quick Action):
 #### Set up
 ![Automator Quick Action](img/Automator%20Quick%20Action.png "Automator Quick Action")
-#### Debugging: Note in macOS Monterey, you will encounter this error
+#### Debugging: Note in macOS Monterey, you may encounter this error due to [Python 2.7 deprecation](https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python)
 ![Automator Quick Action Error](img/shell_error.png "Automator Quick Action Error")
 To fix this, create Symlink to python3(installed by homebrew):
 ```
@@ -61,7 +61,7 @@ Make sure there's no bug left and save
 #### Usage in Finder
 ![Finder Quick Action](img/finder_quick_action_usage.png "Finder Quick Action")
 
-Alternatively download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path to store this workflow is "/Users/luke/Library/Services/Reverse\ PDF\ Pages.workflow"
+Alternatively download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path to store this workflow is "/Users/<your_user_name>>/Library/Services/Reverse\ PDF\ Pages.workflow"
 ### Automator (Application):
 NA
 
