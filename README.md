@@ -58,10 +58,11 @@ sudo rm /usr/local/bin/python3
 ```
 Make sure there's no bug left and save
 ![Save Quick Action](img/save_quick_action.png "Save Quick Action")
+
+**Alternatively** download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path to store this workflow is "/Users/<*your_user_name*>/Library/Services/Reverse\ PDF\ Pages.workflow"
 #### Usage in Finder
 ![Finder Quick Action](img/finder_quick_action_usage.png "Finder Quick Action")
 
-Alternatively download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path to store this workflow is "/Users/<your_user_name>>/Library/Services/Reverse\ PDF\ Pages.workflow"
 ### Automator (Application):
 NA
 
