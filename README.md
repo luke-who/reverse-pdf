@@ -54,7 +54,7 @@ Make sure there's no bug left and save
 ![Finder Quick Action](img/finder_quick_action_usage.png "Finder Quick Action")
 
 ### Automator (Application):
-NA
+TBD
 
 
 # LICENSE
