@@ -2,8 +2,8 @@
 # coding: utf-8
 
 # write a PDF with its pages reversed into name_rev.pdf
-# tested: Python 2.7.10 (10.13.6), Python 2.7.16 (10.14.6, 10.15.1)
-# VikingOSX, 2019-01-19, Apple Support Communities, No warranties.
+# tested: Python 3.10.5
+# macOS Monterey Version 12.4, 2022-07-5, No warranties.
 
 from Foundation import NSURL #this requires "pip3 install pyobjc"
 from Quartz.PDFKit import PDFDocument
