@@ -56,6 +56,8 @@ Make sure there's no bug left and save
 ### Automator (Application):
 TBD
 
+# Contributing
+Any suggestions are welcome with a pull request. Either to expand this further or adding more functionalities.
 
 # LICENSE
 -----------------------------------------------------------------------------------
