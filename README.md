@@ -44,7 +44,7 @@ It can be incorporated into a single Automator Run Shell Script action saved as 
 ### Automator (Quick Action):
 #### Set up
 ![Automator Quick Action](img/Automator%20Quick%20Action.png "Automator Quick Action")
-#### Debugging: Note in macOS Monterey, you may encounter [this error](Debug/README.md) due to [Python 2.7 deprecation](https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python)
+#### Debugging: Note in macOS Monterey, you may encounter [this error](Debug/README.md#shell-error-could-not-find-shell-usrlocalbinpython3) due to [Python 2.7 deprecation](https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python)
 
 Make sure there's no bug left and save
 ![Save Quick Action](img/save_quick_action.png "Save Quick Action")
