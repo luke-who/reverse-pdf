@@ -44,18 +44,8 @@ It can be incorporated into a single Automator Run Shell Script action saved as 
 ### Automator (Quick Action):
 #### Set up
 ![Automator Quick Action](img/Automator%20Quick%20Action.png "Automator Quick Action")
-#### Debugging: Note in macOS Monterey, you may encounter this error due to [Python 2.7 deprecation](https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python)
-![Automator Quick Action Error](img/shell_error.png "Automator Quick Action Error")
-To fix this, create Symlink to python3(installed by homebrew):
-```
-sudo ln -s /opt/homebrew/opt/python@3.10/bin/python3 /usr/local/bin/python3
-```
-the symbolic link `/usr/local/bin/python3` will be created and the link/pointer look like this: `/usr/local/bin/python3 -> /opt/homebrew/opt/python@3.10/bin/python3`
+#### Debugging: Note in macOS Monterey, you may encounter [this error](Debug/README.md) due to [Python 2.7 deprecation](https://developer.apple.com/documentation/macos-release-notes/macos-12_3-release-notes#Python)
 
-To remove the Symlink in the future, just run:
-```
-sudo rm /usr/local/bin/python3
-```
 Make sure there's no bug left and save
 ![Save Quick Action](img/save_quick_action.png "Save Quick Action")
 
