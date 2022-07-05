@@ -62,3 +62,8 @@ Make sure there's no bug left and save
 Alternatively download [Reverse PDF Pages](src/mac/Reverse%20PDF%20Pages.workflow) and open it. The default path to store this workflow is "/Users/luke/Library/Services/Reverse\ PDF\ Pages.workflow"
 ### Automator (Application):
 NA
+
+
+# LICENSE
+-----------------------------------------------------------------------------------
+[MIT License](LICENSE)
